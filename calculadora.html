@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h3>Calculadora</h3>
+    </center>
+    <div class="calculadora">
+        <input type="text" id="tela" disabled>
+        <div class="buttons">
+            <button onclick="limparTela()">AC</button>
+            <button onclick="backspace()">←</button>
+            <button onclick="addTela('%')">%</button>
+            <button onclick="addTela('/')">/</button>
+            <button onclick="addTela('7')">7</button>
+            <button onclick="addTela('8')">8</button>
+            <button onclick="addTela('9')">9</button>
+            <button onclick="addTela('*')">*</button>
+            <button onclick="addTela('4')">4</button>
+            <button onclick="addTela('5')">5</button>
+            <button onclick="addTela('6')">6</button>
+            <button onclick="addTela('-')">-</button>
+            <button onclick="addTela('1')">1</button>
+            <button onclick="addTela('2')">2</button>
+            <button onclick="addTela('3')">3</button>
+            <button onclick="addTela('+')">+</button>
+            <button onclick="addTela('0')">0</button>
+            <button onclick="addTela('.')">,</button>
+            <button onclick="calcular()">=</button>
+        </div>
+        <div class="buttonsOperation">
+        </div>
+    </div>
+    <script src="controle.js"></script>
+</body>
+
+</html>
+
+
+<!--
+    CALCULADORA
+    AC  backspace    %   /
+    7       8        9   *
+    4       5        6   -
+    1       2        3   +
+            0        ,   =
+-->

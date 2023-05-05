@@ -1,0 +1,36 @@
+.calculadora {
+    width: 250px;
+    border: 2px solid white;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+    background-color: #272727;
+    border-radius: 25px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    background-color: #c2c2c2;
+    border-radius: 25px;
+}
+
+.buttons button {
+    width: 15%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.buttons button:hover {
+    background-color: #EEE;
+}
+
+.buttons button:active {
+    background-color: #CCC;
+}
